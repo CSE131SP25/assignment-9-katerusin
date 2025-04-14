@@ -37,7 +37,6 @@ public class Snake {
 			deltaY = 0;
 			deltaX = MOVEMENT_SIZE;
 		}
-		System.out.println(direction);
 	}
 	
 	/**
