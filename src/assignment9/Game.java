@@ -31,8 +31,6 @@ public class Game {
 			currentFood.updateFood();
 			playerSnake.move();StdDraw.setPenColor();
 			StdDraw.setPenRadius();
-			StdDraw.text(.5,.5,"Game Over");
-			StdDraw.text(.5,.5,"Score: " + playerSnake.getSnakeLength());
 			updateDrawing();
 			if (currentFood.getY()>1.0237 ||currentFood.getX()<-.035 ||currentFood.getY()<-.04) {
 				currentFood = spawnNewFood();
