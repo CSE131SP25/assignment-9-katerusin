@@ -16,7 +16,7 @@ public class Game {
 	
 	public Food spawnNewFood() {
 		double foodChance = Math.random();
-		if (foodChance < .9) {
+		if (foodChance < .7) {
 			return new Fruit();
 		}
 		else {
